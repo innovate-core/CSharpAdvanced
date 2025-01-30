@@ -6,6 +6,7 @@
         {
             Generics.Run();
             Delegates.Run();
+            LambdaExpressions.Run();
         }
     }
 }
