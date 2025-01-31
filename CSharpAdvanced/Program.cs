@@ -7,6 +7,7 @@
             Generics.Run();
             Delegates.Run();
             LambdaExpressions.Run();
+            ExtensionMethods.Run();
         }
     }
 }
