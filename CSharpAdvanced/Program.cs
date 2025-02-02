@@ -8,6 +8,7 @@
             Delegates.Run();
             LambdaExpressions.Run();
             ExtensionMethods.Run();
+            Linq.Run();
         }
     }
 }
