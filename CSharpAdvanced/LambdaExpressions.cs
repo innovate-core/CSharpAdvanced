@@ -26,6 +26,24 @@ public static class LambdaExpressions
     {
         Console.WriteLine("Start -> Lambda Expressions");
 
+        //args => expression
+        //number => number * number;
+
+        // () => ...
+        // x => ...
+        // (x, y, z) => ...
+        Func<int, int> square = number => number * number;
+
+        Console.WriteLine(square(5)); //Output: 25
+
+        const int factor = 5;
+
+        Func<int,int> multipler = n => n * factor;
+
+        var result = multipler(10);
+
+        Console.WriteLine(result); // Output: 50
+
         var books = new BookRepository().GetBooks();
 
         var cheapBooks = books.FindAll(b => b.Price < 10);
