@@ -7,9 +7,10 @@
             Generics.Run();
             Delegates.Run();
             LambdaExpressions.Run();
+            Events.Run();
             ExtensionMethods.Run();
             Linq.Run();
-            Events.Run();
+            NullableTypes.Run();
         }
     }
 }
