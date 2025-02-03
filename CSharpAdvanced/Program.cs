@@ -9,6 +9,7 @@
             LambdaExpressions.Run();
             ExtensionMethods.Run();
             Linq.Run();
+            Events.Run();
         }
     }
 }
