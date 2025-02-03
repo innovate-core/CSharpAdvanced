@@ -10,10 +10,12 @@ public static class ExtensionMethods
         string post = "This is supposed to be a very long blog post blah blah blah...";
         var shortenedPost = post.Shorten(5);
 
+        Console.WriteLine(shortenedPost); //Output: This is supposed to be ... 
+
         IEnumerable<int> numbers = new List<int>() { 1, 5, 3, 10, 2, 18 };
         var max = numbers.Max();
 
-        Console.WriteLine(max);
+        Console.WriteLine(max); //Output: 18     
 
         Console.WriteLine("Finish -> Extension Methods");
     }
